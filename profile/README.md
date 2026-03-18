@@ -1,7 +1,7 @@
 # Fabric Payment Standards Foundation
 
 <p align="center">
-  <img src="https://fabricpaymentstandards.org/logo.png" alt="Fabric Payment Standards Foundation Logo" width="160"/>
+  <img src="https://fabricpaymentstandards.org/static/img/logo.png" alt="Fabric Payment Standards Foundation Logo" width="160"/>
 </p>
 
 <p align="center">
