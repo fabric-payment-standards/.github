@@ -1,0 +1,46 @@
+name: Implementation Report
+description: Report an implementation of a specification
+title: "[Implementation]: "
+labels: ["implementation"]
+
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project Name
+      placeholder: e.g. Acme Wallet
+
+  - type: input
+    id: spec
+    attributes:
+      label: Specification Implemented
+      placeholder: e.g. Fabric Payment Protocol v1.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Implementation Status
+      options:
+        - Partial
+        - Complete
+        - Experimental
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Implementation Details
+      description: How you implemented the spec
+
+  - type: textarea
+    id: issues
+    attributes:
+      label: Issues Encountered
+      description: Any problems, ambiguities, or bugs
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility Notes
+      description: Interoperability with other implementations

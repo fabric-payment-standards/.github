@@ -1,0 +1,33 @@
+name: Specification Feedback
+description: Provide feedback on a specification
+title: "[Spec Feedback]: "
+labels: ["spec-feedback"]
+
+body:
+  - type: input
+    id: spec
+    attributes:
+      label: Specification
+      placeholder: e.g. Cash-Pack Format v1.0
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      placeholder: e.g. 4.2 Signature Validation
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Description
+      description: What is unclear, incorrect, or problematic?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Change
+      description: Optional proposed fix or improvement
